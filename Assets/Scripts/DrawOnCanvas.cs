@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-/// <summary>
-/// While drawing on the UI image, this class rapidly instantiates spheres on the car's body's position
-/// I'm sorry for repedeately used code
-/// </summary>
+
 public class DrawOnCanvas : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerExitHandler
 {
     public Transform frontWheel;
